@@ -1,0 +1,503 @@
+/* * {
+  font-family: 'Montserrat', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+.conatiner{ 
+    display: flex;
+    background-color:#F9C74F ;
+    color:black;
+    font-size: 1em;
+    margin-top: -2%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-right: 0px;
+ 
+    
+  }
+  h1{ margin-top: 0%;
+    margin-left: 0%;
+    font: weight 1000px;
+    font: outline;
+    font-size: larger;
+
+  }
+.original_price{
+font-style: italic;
+  }
+  .sale_price{
+font-style: italic;
+    }
+.handles{
+  font-style: unset;
+  font-size: large;
+  font: outline;
+  font-weight: bold;
+  padding: 15px;
+  color: brown;
+  text-shadow: whitesmoke 2px 2px ;
+
+
+}
+  img{
+    max-width:100%;
+    border-top: #F9C74F;
+    border-left: #F9C74F ;
+    border-right: #F9C74F ;
+    border-bottom: #F9C74F ;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-style: solid;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+
+  }
+#para1{
+font-size: medium;
+  
+}
+  #link{
+    display: flex;
+    width:100%;
+    margin:0 auto;
+    padding-top:30px;
+    padding-bottom:30px;
+    
+  }
+  #LAY1{
+    height: fit-content;
+    display: flex;
+    margin-top:30px;
+    width: fit-content;
+
+
+  }
+  #LAY1 .top{
+    margin-left: 10%;
+    display: flex;
+    width:fit-content;
+    margin-bottom:30px;
+  }
+  #LAY1 .bottom{
+    display:block;
+    width:fit-content;
+    padding-top:30px;
+    clear:both;
+  }
+  /* .add{
+    font-size: 10px;
+    margin-top: -20px;
+    padding-top: 15%;
+   display: hidden;
+    
+    
+  } */
+
+/* .fa-3x {
+  padding: 5px 5px;
+}
+
+  #main{
+    width: fit-content;
+    
+  }
+  #LAY1 .product_info{
+    
+    
+    width: 70%;
+    float: left;
+    
+  }
+#main{
+    height: 50%;
+    width: 70%;
+    border-radius:3px;
+  }
+  #LAY1  .SMALL_IMAGE{
+    width:100%;
+    margin-top:15px;
+    
+  }
+  #LAY1 .SMALL_IMAGE .product_image_2{
+    width:40%;
+    height: 40%;
+    
+    float:left;
+    margin-right:4%;
+    box-sizing:border-box;
+  }
+  #LAY1  .SMALL_IMAGE .product_image_3{
+    width:40%;
+    height:40%;
+    float:left;
+    margin-right:4%;
+    box-sizing:border-box;
+  }
+  
+  #LAY1 .product_info h1{
+    font-size:2em;
+    margin-top: 30px;
+    font-weight: 700;
+
+    
+  }
+  #LAY1 .product_info .price{
+    
+    margin-top:-30px;
+    font-size: 20px;
+    
+  
+  }
+  #LAY1 .product_info .original_price{
+    
+    color:green;
+    margin-top: 23px;
+    text-shadow: whitesmoke 2px 2px ;
+    font-size:2em;
+    text-decoration:line-through;
+    width: 15%;
+    
+    display:inline-block;
+  }
+  #LAY1 .product_info .sale_price{
+    color:red;
+    text-shadow: whitesmoke 2px 2px ;
+    font-size:2em;
+    display:inline-block;
+   
+  }
+#handles{ display: inline-block;
+  color: black;
+  margin-top: 1%;
+  font-size:2em;
+}
+ 
+.product_description{
+     display: block;
+     margin-top: 0%;
+     width: fit-content;
+      font-size: 1.6em;
+  }
+#des{
+  display: block;
+  margin-top: 1%;
+}
+
+  #LAY1 .product_info .buying{
+    width:fit-content;
+    float:left;
+    margin-left:0%;
+  }
+ 
+ 
+  #LAY1 .product_info .buying .quantity{
+    display:flex;
+    font-size:2em;
+    margin-top:15px;
+    width:100%;
+    
+  }
+  #LAY1 .product_info .buying .quantity [type="text"]{
+    width:70px;
+    height:40px;
+    outline-style: none;
+    
+    
+    box-sizing:border-box;
+    font-size:1em;
+  }
+ 
+
+button{ display: inline-block;
+  background-color:#F9844A;
+  color: wheat;
+  border: white;
+  outline-style: none;
+  border-radius: 10px;
+  margin-top:25px;
+  margin-bottom:20px;
+  
+} 
+button:hover{
+  color: brown;
+  cursor: pointer;
+  border: white
+} */ 
+
+ /*cart info  */
+ /* .cart-info {
+  border: 0.1rem solid black;
+  color: black;
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+.cart-info:hover {
+  background: brown;
+  border-color: brown;
+  color: whitesmoke;
+}
+.cart-info:hover .cart-info__icon {
+  color: whitesmoke;
+}
+.cart-item {
+  padding-top: 10px;
+  color: #333;
+  display: flex;
+  font-size: large;
+}
+
+#cart-item-title {
+  
+  padding-right :6px;
+}
+#cart-item-remove {
+  color: brown;
+  font-size: 30px;
+} */
+/* #cart-total {
+  padding-right: 8px;
+} */
+ /* .cart-total-container {
+  color: #333;
+  
+ 
+  margin-right: 12em;
+  font-size: 20px;
+} 
+
+
+.flexx {
+  display: flex;
+
+} */
+
+/* cart */
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #454545;
+}
+body{
+  background: #F9C74F;
+}
+h1{
+  width: 3%;
+    position: relative;
+    top: 10px;
+    left: 90%;
+    cursor: pointer;
+}
+h1:before{
+  content: attr(data-count);
+    color:#F9C74F ;
+    position: absolute;
+    right: 16px;
+    font-size: 15px;
+    text-align: center;
+    /* top: -62px; */
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+}
+h1.zero:before{
+  opacity: 1;
+}
+  section{
+    margin-left: 100px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+    box-shadow:inset 2px 2px 10px rgb(73, 73, 73);
+  }
+  section div{
+    width: 80%;
+    padding: 1%;
+    position: relative;
+  }
+  img{
+    height: 400px;
+    margin-top: 50px;
+  }
+  p,h6{
+    margin: 5px;
+    position: relative;
+    left: 30%;
+    top: -70%;
+    color: white;
+  }
+  p{
+    font-size: 30px;
+  }
+  h6{
+      width: 50px;
+      padding: 5px;
+      font-size: 20px;
+  }
+  button{
+      padding: 15px;
+      background: white;
+      border: none;
+      outline: none;
+      font-weight: bold;
+      color: #da9902;
+      cursor: pointer;
+      border-radius: 20px;
+      font-size: 20px;
+      position: absolute;
+      left: 30%;
+      top: 30%;
+  }
+  section div span{
+    position: absolute;
+      top: 14px;
+      left: 13px;
+      background:#F9C74F;
+      width: 300px;
+      height: 186px;
+      display: none;
+  }
+  section div span img{
+    width: 100%;
+    height: 100%;
+  }
+  section div:nth-child(1)>span.active{
+    animation: first 0.5s ease-in;
+    z-index: 2;
+    display: block;
+
+  }
+  section div:nth-child(2)>span.active{
+    animation: second 0.5s ease-in;
+    z-index: 2;
+    display: block;
+
+  }
+  section div:nth-child(3)>span.active{
+    animation: third 0.5s ease-in;
+    z-index: 2;
+    display: block;
+
+  }
+  section div:nth-child(4)>span.active{
+    animation: four 0.5s ease-in;
+    z-index: 2;
+    display: block;
+
+  }
+  @keyframes first{
+    to{
+      width: 30px;
+        height: 20px;
+        left: 1290px;
+        top: -70px;
+    }
+  }
+  @keyframes second{
+    to{
+      width: 30px;
+        height: 20px;
+        left: 948px;
+        top: -70px;
+    }
+  }
+  @keyframes third{
+    to{
+      width: 30px;
+        height: 20px;
+        left: 606px;
+        top: -70px;
+    }
+  }
+  @keyframes four{
+    to{
+      width: 30px;
+        height: 20px;
+        left: 265px;
+        top: -70px;
+    }
+  }
+
+
+  
+  .select{
+    width: 60%;
+    height: 580px;
+    padding: 5%;
+    background: #222;
+    position: absolute;
+    top: -1000px;
+    left: 20%;
+    transition: 0.5s;
+    overflow-y: auto;
+    margin: auto;
+  }
+  .select.display{
+    top: 50px;
+  }
+  .select div{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    border: 1px solid white;
+    position: relative;
+    margin: 5px auto;
+  }
+  .select div img{
+    height: 100%;
+    position: relative;
+    top: -25px;
+  }
+  .select div p{
+    color: white;
+    position: relative;
+    left: 7%;
+    top: 50px;
+  }
+  .select div h6{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    color: white;
+  }
+  .select div button{
+    position: absolute;
+    top: 50%;
+    color: #222;
+
+  }
+  .select div span{
+    display: none;
+  }
+ 
+@media only screen and (max-width: 700px){
+   
+    #LAY1 .product_info,
+    #LAY1 .product_description
+    #des
+    #LAY1 .product_info .buying
+    {width: 50%;
+      margin-top: 0%;
+      margin-left:15%;
+      margin-right: 15%;
+    } 
+    .product_images{
+      height: 50%;
+      width: 50%;
+    }
+    .price{
+      width: 10%;
+    }
+  }
